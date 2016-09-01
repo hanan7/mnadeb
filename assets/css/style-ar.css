@@ -1,0 +1,87 @@
+/************************Style Arabic********************/
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+body{
+    font-family: 'Droid Arabic Kufi';
+}
+.sidebar{
+    right: 0;
+    left: inherit;
+}
+.main-panel{
+    float: left;
+}
+.sidebar .logo .simple-text{
+    padding: 10px 0px 5px 30px;
+}
+.sidebar .nav i {
+    float: right;
+    margin-left: 15px;
+    margin-right: auto;
+}
+.navbar .navbar-nav .notification{
+    right: 7px;
+    left: initial;
+}
+.navbar-nav > li > .dropdown-menu:before{
+    border-bottom: 11px solid rgba(0,0,0,0.2);
+    border-right: 11px solid rgba(255,255,255,.15);
+    border-left: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    left: initial;
+    top: -11px;
+}
+@media (min-width: 992px){
+.navbar-nav > li > .dropdown-menu:after {
+    border-bottom: 11px solid #fff;
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    left: initial;
+    top: -10px;
+}
+}
+.navbar-nav > li > .dropdown-menu:after {
+    border-bottom: 11px solid #FFFFFF;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    left: initial;
+    top: -10px;
+}
+.navbar-nav.navbar-right > li > .dropdown-menu:before{
+    right: auto;
+    left: 12px;
+}
+.navbar-nav.navbar-right > li > .dropdown-menu:after {
+    right: auto;
+    left: 12px;
+}
+.footer nav > ul li {
+    margin-left: 20px;
+    float: right;
+}
+@media (max-width: 991px){
+.navbar-header .navbar-toggle {
+    margin: 10px 15px 10px 10px;
+    height: 40px;
+}
+}
+.content .btn-nav {
+    position: relative;
+    margin-bottom: 18px;
+    padding-right: 0px;
+    margin-right: -25px;
+}
+.modal-open .modal {
+    overflow-y: hidden;
+    overflow-x: auto;
+}

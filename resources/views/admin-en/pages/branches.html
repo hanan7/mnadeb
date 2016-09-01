@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our First Hand</title>
+    <link rel='stylesheet' href="css/bootstrap.min.css" />
+    <link rel='stylesheet' href="css/style.css"/>
+    <link rel='stylesheet' href='css/font-awesome.min.css'/>
+    <link rel='stylesheet' href="css/media.css"/>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,700,300'/>
+</head>
+
+<body>
+ <div class="wrapper">
+    <div class="sidebar"  data-image="images/p1.jpg">
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="#" class="simple-text">
+                    <i class="fa fa-anchor"></i>
+                    <span>First</span> Hand
+                </a>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href="First_Hand_Test.html">
+                        <i class="fa fa-dashboard"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="Master-Data.html">
+                        <i class="fa fa-list-alt"></i>
+                        <p>Master Data</p>
+                    </a>
+                </li>
+                 <li>
+                    <a href="qutations.html">
+                        <i class="fa fa-desktop"></i>
+                        <p>Qutations</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="operation.html">
+                        <i class="fa fa-keyboard-o icon"></i>
+                        <p>Operations</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="reports.html">
+                        <i class="fa fa-line-chart"></i>
+                        <p>Reports</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="admin.html">
+                        <i class="fa fa-sitemap"></i>
+                        <p>Admin</p>
+                    </a>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-map"></i>
+                        <p>Maps</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user"></i>
+                        <p>User Profile</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+ 
+    <div class="main-panel">
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">
+                        <i class="fa fa-home"></i>
+                            Home
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" >
+                        <ul class="nav navbar-nav navbar-left">
+                            
+                            <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <i class="fa fa-globe"></i>
+                                        <b class="caret"></b>
+                                        <span class="notification">5</span>
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">Notification 1</a></li>
+                                    <li><a href="#">Notification 2</a></li>
+                                    <li><a href="#">Notification 3</a></li>
+                                    <li><a href="#">Another notification</a></li>
+                                  </ul>
+                            </li>
+                            <li class="hidden-xs hidden-sm ser">
+				<a href="#">
+				    <i class="fa fa-search"></i>
+				</a>
+			    </li>
+			    <form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+				    <input type="text" class="form-control" placeholder="Search">
+				</div>
+				<button type="submit" class="btn btn-danger">Search</button>
+			    </form>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <span><i class="fa fa-user"></i></span> ADMIN
+                                        <b class="caret"></b>
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                  </ul>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-home"></i>Home Page</a></li>
+            <li><a href="Master-Data.html">Admin</a></li>
+            <li>Settings</li>
+            <li class="active">Branches</li>
+
+        </ol>
+        <section class="content">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-head">Branches</h3>
+            </div>
+            <div class="panel-body">
+                <div class="container-fluid">
+                    <div class="row top-table">
+                        <div class="col-xs-5">
+                            <div class="addNew">
+                                <button type="button" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#modal-branch"> 
+                                    <i class="fa fa-plus"></i>
+                                    New
+                                </button>
+                                
+                            </div>
+                        </div>
+                        <div class="ser-a-del col-xs-7">
+                            <div class=" col-xs-9">
+                                <div class="input-group">
+                                    <input type="text" class="form-control input-sm" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-sm btn-success" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-xs-1">
+                                <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#my-model"> 
+                                    <i class="fa fa-trash-o"></i>
+                                    Delete
+                                </button> 
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="row">
+                        <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th id="ID">
+                                        <input id="CheckAll" type="checkbox" class="chk-box">
+                                    </th>
+                                     <th>Code</th><th>Name</th><th>Arabic Name</th><th>Inactive</th><th>Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-success">
+                                    <td class="ID">
+                                        <input name="delete" id="" value="" type="checkbox" class="chk-box">
+                                    </td>
+                                    <td>ALEXANDRIA</td>
+                                    <td>ALEXANDRIA</td>
+                                    <td>ALEXANDRIA </td>
+                                    <td> <input type="checkbox" name="inactive" id="" value="" </td>
+                                    <td></td>
+                                    
+                                </tr>
+                                <tr class="text-success">
+                                    <td class="ID">
+                                        <input name="delete" id="" value="" type="checkbox" class="chk-box">
+                                    </td>
+                                    <td>CAIRO</td>
+                                    <td>CAIRO</td>
+                                    <td>CAIRO</td>
+                                    <td> <input type="checkbox" name="inactive" id="" value="" </td>
+                                    <td></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">Panel footer</div>
+            </div>
+        </section>
+	<footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Company
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="copyright pull-right">
+                    &copy; 2016 <a href="#">Zakaa</a>, made with love for a better web
+                </p>
+            </div>
+        </footer>
+
+    </div>
+ </div>
+    <div class="modal fade " id="modal-branch" tabindex="-1" role="dialog" aria-labelledby="mm">
+                                      <div class="modal-dialog modal-width-70" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="gridSystemModalLabel">Branch</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="row">
+                                                <div class="form-group col-sm-4">
+                                                  <label>Code</label>
+                                                  <input id="" type="text" class="form-control" placeholder="NAME" required>
+                                              </div>
+                                              <div class="form-group col-sm-4">
+                                                  <label>Name</label>
+                                                  <input id="" type="text" class="form-control" placeholder="NAME" required>
+                                              </div>
+                                              <div class="form-group col-sm-4">
+                                                  <label>Arabic Name</label>
+                                                  <input id="" type="text" class="form-control" placeholder="LOCAL NAME" required>
+                                              </div>
+                                            </div>
+                                            <div class="row">
+                                              <div class="form-group col-sm-6">
+                                                  <label>Country</label>
+                                                  <select id="" name="slectSalesman" class="form-control" >
+                                                        <option value="">Select Country</option>
+                                                        <option value="1">ADMIN</option>
+                                                        <option value="2">MOSTAFA</option>
+                                                        <option value="3">MA</option>
+                                                        <option value="4">MOHAMED</option>
+                                                        <option value="5">SHERIF</option>
+                                                        <option value="6">TEST</option></select>
+                                              </div>
+                                              <div class="form-group col-sm-6">
+                                                  <label>City</label>
+                                                  <select id="" name="slectSalesman" class="form-control" >
+                                                        <option value="">Select City</option>
+                                                        <option value="1">ADMIN</option>
+                                                        <option value="2">MOSTAFA</option>
+                                                        <option value="3">MA</option>
+                                                        <option value="4">MOHAMED</option>
+                                                        <option value="5">SHERIF</option>
+                                                        <option value="6">TEST</option></select>
+                                              </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-3">
+                                                    <label>Phone1</label>
+                                                    <input type="tel" class="form-control" placeholder="PHONE 1" maxlength="16" required id="">
+                                                </div>
+                                                <div class="form-group col-sm-3">
+                                                    <label>Phone2</label>
+                                                    <input type="tel" class="form-control" placeholder="PHONE 2" maxlength="16"  id="">
+                                                </div>
+                                                <div class="form-group col-sm-3">
+                                                    <label>Mobile 1</label>
+                                                    <input type="tel" class="form-control" placeholder="MOBILE " maxlength="16" required id="">
+                                                </div>
+                                                <div class="form-group col-sm-3">
+                                                    <label>Fax</label>
+                                                    <input type="text" class="form-control" placeholder="FAX" maxlength="16" id="">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-9">
+                                                    <label>Address</label>
+                                                    <input type="text" class="form-control" id="" placeholder="ADDRESS" maxlength="500" required>
+                                                </div>
+                                                <div class="form-group col-sm-3">
+                                                    <label>ZipCode</label>
+                                                    <input type="text" class="form-control" id="" placeholder="ZIPCODE" maxlength="16" required>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-9">
+                                                    <label>Notes</label>
+                                                    <input type="text" class="form-control" id="" placeholder="NOTES" maxlength="200" >
+                                                </div>
+                                                <div class="form-group col-sm-3">
+                                                    <label>
+                                                        <input type="checkbox" id="">
+                                                    &nbsp;Inactive
+                                                    </label>
+                                                    
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-defult" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-success">
+                                                <span class="glyphicon glyphicon-save"> </span>Save changes
+                                            </button>
+                                          </div>
+                                        </div><!-- /.modal-content -->
+                                      </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="js/jquery-1.12.1.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/plugins.js"></script>
+     <script src="js/jquery.nicescroll.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
